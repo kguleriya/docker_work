@@ -26,3 +26,9 @@ But the above is not working as it gives error for the authentication on databas
 
 ## working using yaml command 
 docker-compose -f mongo.yaml up
+
+## Image create 
+docker build -t my_app:1.0 .
+
+## Exec -it
+docker exec -it [image_id] /bin/sh
